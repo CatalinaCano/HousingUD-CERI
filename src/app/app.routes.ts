@@ -1,10 +1,10 @@
 import { RouterModule, Routes } from '@angular/router';
-import { InicioComponent } from './components/Inicio/inicio.component';
-import { NopagefoundComponent } from 'app/components/shared/404/nopagefound/nopagefound.component';
+import { LoginComponent } from './components/login/login.component'; // Pagina de Inicio
+
+
 
 const APP_ROUTES: Routes = [
-  { path: 'inicio', component: InicioComponent},
-  { path: '', component: NopagefoundComponent }
+  { path: 'login', component: LoginComponent},
 
 ];
 

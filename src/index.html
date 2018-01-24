@@ -5,17 +5,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Aplicación para la gestión de la estadía academica">
+    <meta name="author" content="Catalina Cano , Cristhian Riaño">
     <title>.:: Housing-UD | Estadía para tú movilidad académica ::.</title>
     <base href="/">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <script src="https://cdn.auth0.com/js/auth0/8.10.1/auth0.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
-    <app-root></app-root>
+
+    <!--Animacion que inicia al cargar la pagina-->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Housing UD</p>
+        </div>
+    </div>
+
+
+    <div class="content-wrapper py-3">
+        <app-root></app-root>
+    </div>
+
+
 </body>
 
 </html>

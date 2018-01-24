@@ -22,9 +22,17 @@ import { AgmCoreModule } from '@agm/core'; // Modulo de mapas*/
 
 // COMPONENTES
 import { AppComponent } from './app.component';
-
-
-
+import { LoginComponent } from './components/login/login.component';
+import { NavbarComponent } from './components/compartido/navbar/navbar.component';
+import { BarraNavegacionComponent } from './components/compartido/barra-navegacion/barra-navegacion.component';
+import { PaginaNoEncontradaComponent } from './components/compartido/pagina-no-encontrada/pagina-no-encontrada.component';
+import { GraficasComponent } from './components/paginas/graficas/graficas.component';
+import { BienvenidaComponent } from './components/paginas/bienvenida/bienvenida.component';
+import { AlojamientoComponent } from './components/paginas/alojamiento/alojamiento.component';
+import { AlojamientosComponent } from './components/paginas/alojamientos/alojamientos.component';
+import { PerfilComponent } from './components/paginas/perfil/perfil.component';
+import { PostularAlojamientoComponent } from './components/paginas/postular-alojamiento/postular-alojamiento.component';
+import { SidebarComponent } from './components/compartido/sidebar/sidebar.component';
 
 
 
@@ -32,7 +40,18 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    NavbarComponent,
+    BarraNavegacionComponent,
+    PaginaNoEncontradaComponent,
+    GraficasComponent,
+    BienvenidaComponent,
+    AlojamientoComponent,
+    AlojamientosComponent,
+    PerfilComponent,
+    PostularAlojamientoComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
